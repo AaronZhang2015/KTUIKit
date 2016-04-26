@@ -1,0 +1,1 @@
+../../../KTCategories/KTCategories/UIKit/UIApplication+KTKit.h

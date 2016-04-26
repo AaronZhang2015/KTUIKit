@@ -1,0 +1,16 @@
+{
+  "name": "KTCategories",
+  "version": "0.0.1",
+  "summary": "A short description of KTCategories.",
+  "description": "",
+  "homepage": "https://github.com/AaronZhang2015/KTCategories",
+  "license": "MIT (example)",
+  "authors": {
+    "aaron zhang": "aaronzhang8741@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AaronZhang2015/KTCategories.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "KTCategories/**/*.{h,m}"
+}

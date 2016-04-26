@@ -1,0 +1,1 @@
+../../../KTCategories/KTCategories/UIKit/UIDevice+KTKit.h

@@ -1,0 +1,22 @@
+PODS:
+  - KTCategories (0.0.1)
+  - Masonry (1.0.0)
+
+DEPENDENCIES:
+  - KTCategories (from `https://github.com/AaronZhang2015/KTCategories.git`)
+  - Masonry
+
+EXTERNAL SOURCES:
+  KTCategories:
+    :git: https://github.com/AaronZhang2015/KTCategories.git
+
+CHECKOUT OPTIONS:
+  KTCategories:
+    :commit: e51beeb9c298f4fc661218693b36acafa2f140a3
+    :git: https://github.com/AaronZhang2015/KTCategories.git
+
+SPEC CHECKSUMS:
+  KTCategories: d61697ddc0f0a8fd422271cb5e732bfc3ebe89fd
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+
+COCOAPODS: 0.39.0

@@ -15,6 +15,13 @@
 		6B0159641CCE308D00A1F312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0159621CCE308D00A1F312 /* LaunchScreen.storyboard */; };
 		6B01596F1CCE308D00A1F312 /* KTUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B01596E1CCE308D00A1F312 /* KTUIKitTests.m */; };
 		6B01597A1CCE308D00A1F312 /* KTUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0159791CCE308D00A1F312 /* KTUIKitUITests.m */; };
+		6B01598B1CCE351800A1F312 /* KTSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B01598A1CCE351800A1F312 /* KTSlideView.m */; };
+		6B1979AA1CCF6DE2004DB751 /* KTFixedTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1979A91CCF6DE2004DB751 /* KTFixedTabView.m */; };
+		6B1979AD1CCF708C004DB751 /* KTTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1979AC1CCF708C004DB751 /* KTTabItem.m */; };
+		6B1979B21CCF748B004DB751 /* KTFixedSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1979B11CCF748B004DB751 /* KTFixedSlideView.m */; };
+		6B98E79E1CCF05580095C015 /* Slide1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B98E79D1CCF05580095C015 /* Slide1ViewController.m */; };
+		6B98E7A11CCF055F0095C015 /* Slide2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B98E7A01CCF055F0095C015 /* Slide2ViewController.m */; };
+		6DDE0052BEBF9BB1E39F2EEE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F1A59E7E9C1CC37D061134 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16F1A59E7E9C1CC37D061134 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0159511CCE308D00A1F312 /* KTUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0159551CCE308D00A1F312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B0159571CCE308D00A1F312 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,20 @@
 		6B0159751CCE308D00A1F312 /* KTUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0159791CCE308D00A1F312 /* KTUIKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTUIKitUITests.m; sourceTree = "<group>"; };
 		6B01597B1CCE308D00A1F312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0159891CCE351800A1F312 /* KTSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSlideView.h; sourceTree = "<group>"; };
+		6B01598A1CCE351800A1F312 /* KTSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSlideView.m; sourceTree = "<group>"; };
+		6B1979A81CCF6DE2004DB751 /* KTFixedTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTFixedTabView.h; path = KTFixedTabView/KTFixedTabView.h; sourceTree = "<group>"; };
+		6B1979A91CCF6DE2004DB751 /* KTFixedTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTFixedTabView.m; path = KTFixedTabView/KTFixedTabView.m; sourceTree = "<group>"; };
+		6B1979AB1CCF708C004DB751 /* KTTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTTabItem.h; path = KTFixedTabView/KTTabItem.h; sourceTree = "<group>"; };
+		6B1979AC1CCF708C004DB751 /* KTTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTTabItem.m; path = KTFixedTabView/KTTabItem.m; sourceTree = "<group>"; };
+		6B1979B01CCF748B004DB751 /* KTFixedSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTFixedSlideView.h; path = KTFixedSlideView/KTFixedSlideView.h; sourceTree = "<group>"; };
+		6B1979B11CCF748B004DB751 /* KTFixedSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTFixedSlideView.m; path = KTFixedSlideView/KTFixedSlideView.m; sourceTree = "<group>"; };
+		6B98E79C1CCF05580095C015 /* Slide1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide1ViewController.h; sourceTree = "<group>"; };
+		6B98E79D1CCF05580095C015 /* Slide1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide1ViewController.m; sourceTree = "<group>"; };
+		6B98E79F1CCF055F0095C015 /* Slide2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide2ViewController.h; sourceTree = "<group>"; };
+		6B98E7A01CCF055F0095C015 /* Slide2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide2ViewController.m; sourceTree = "<group>"; };
+		82B11991FBF1791DE6EE620C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F82C7C19C259621733073A9B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDE0052BEBF9BB1E39F2EEE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +101,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001128953BFB220690A51AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16F1A59E7E9C1CC37D061134 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6B0159481CCE308D00A1F312 = {
 			isa = PBXGroup;
 			children = (
-				6B0159531CCE308D00A1F312 /* KTUIKit */,
+				6B0159531CCE308D00A1F312 /* Example */,
+				6B0159871CCE328600A1F312 /* KTUIKit */,
 				6B01596D1CCE308D00A1F312 /* KTUIKitTests */,
 				6B0159781CCE308D00A1F312 /* KTUIKitUITests */,
 				6B0159521CCE308D00A1F312 /* Products */,
+				85BDFCF8FC0FE5EBF31F5F91 /* Pods */,
+				001128953BFB220690A51AD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,20 +132,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B0159531CCE308D00A1F312 /* KTUIKit */ = {
+		6B0159531CCE308D00A1F312 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				6B98E79B1CCF05410095C015 /* SlideViewDemo */,
+				6B0159541CCE308D00A1F312 /* Supporting Files */,
 				6B0159571CCE308D00A1F312 /* AppDelegate.h */,
 				6B0159581CCE308D00A1F312 /* AppDelegate.m */,
+				6B0159601CCE308D00A1F312 /* Assets.xcassets */,
+				6B0159651CCE308D00A1F312 /* Info.plist */,
+				6B0159621CCE308D00A1F312 /* LaunchScreen.storyboard */,
+				6B01595D1CCE308D00A1F312 /* Main.storyboard */,
 				6B01595A1CCE308D00A1F312 /* ViewController.h */,
 				6B01595B1CCE308D00A1F312 /* ViewController.m */,
-				6B01595D1CCE308D00A1F312 /* Main.storyboard */,
-				6B0159601CCE308D00A1F312 /* Assets.xcassets */,
-				6B0159621CCE308D00A1F312 /* LaunchScreen.storyboard */,
-				6B0159651CCE308D00A1F312 /* Info.plist */,
-				6B0159541CCE308D00A1F312 /* Supporting Files */,
 			);
-			path = KTUIKit;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		6B0159541CCE308D00A1F312 /* Supporting Files */ = {
@@ -119,14 +154,14 @@
 			children = (
 				6B0159551CCE308D00A1F312 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6B01596D1CCE308D00A1F312 /* KTUIKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				6B01596E1CCE308D00A1F312 /* KTUIKitTests.m */,
 				6B0159701CCE308D00A1F312 /* Info.plist */,
+				6B01596E1CCE308D00A1F312 /* KTUIKitTests.m */,
 			);
 			path = KTUIKitTests;
 			sourceTree = "<group>";
@@ -134,10 +169,69 @@
 		6B0159781CCE308D00A1F312 /* KTUIKitUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6B0159791CCE308D00A1F312 /* KTUIKitUITests.m */,
 				6B01597B1CCE308D00A1F312 /* Info.plist */,
+				6B0159791CCE308D00A1F312 /* KTUIKitUITests.m */,
 			);
 			path = KTUIKitUITests;
+			sourceTree = "<group>";
+		};
+		6B0159871CCE328600A1F312 /* KTUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6B1979AF1CCF7472004DB751 /* KTFixedSlideView */,
+				6B1979A71CCF6DB8004DB751 /* KTFixedTabView */,
+				6B0159881CCE34F100A1F312 /* KTSlideView */,
+			);
+			path = KTUIKit;
+			sourceTree = "<group>";
+		};
+		6B0159881CCE34F100A1F312 /* KTSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				6B0159891CCE351800A1F312 /* KTSlideView.h */,
+				6B01598A1CCE351800A1F312 /* KTSlideView.m */,
+			);
+			path = KTSlideView;
+			sourceTree = "<group>";
+		};
+		6B1979A71CCF6DB8004DB751 /* KTFixedTabView */ = {
+			isa = PBXGroup;
+			children = (
+				6B1979AB1CCF708C004DB751 /* KTTabItem.h */,
+				6B1979AC1CCF708C004DB751 /* KTTabItem.m */,
+				6B1979A81CCF6DE2004DB751 /* KTFixedTabView.h */,
+				6B1979A91CCF6DE2004DB751 /* KTFixedTabView.m */,
+			);
+			name = KTFixedTabView;
+			sourceTree = "<group>";
+		};
+		6B1979AF1CCF7472004DB751 /* KTFixedSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				6B1979B01CCF748B004DB751 /* KTFixedSlideView.h */,
+				6B1979B11CCF748B004DB751 /* KTFixedSlideView.m */,
+			);
+			name = KTFixedSlideView;
+			sourceTree = "<group>";
+		};
+		6B98E79B1CCF05410095C015 /* SlideViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B98E79C1CCF05580095C015 /* Slide1ViewController.h */,
+				6B98E79D1CCF05580095C015 /* Slide1ViewController.m */,
+				6B98E79F1CCF055F0095C015 /* Slide2ViewController.h */,
+				6B98E7A01CCF055F0095C015 /* Slide2ViewController.m */,
+			);
+			name = SlideViewDemo;
+			sourceTree = "<group>";
+		};
+		85BDFCF8FC0FE5EBF31F5F91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82B11991FBF1791DE6EE620C /* Pods.debug.xcconfig */,
+				F82C7C19C259621733073A9B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B01597E1CCE308D00A1F312 /* Build configuration list for PBXNativeTarget "KTUIKit" */;
 			buildPhases = (
+				6569CC5E516780C1CAE266EC /* Check Pods Manifest.lock */,
 				6B01594D1CCE308D00A1F312 /* Sources */,
 				6B01594E1CCE308D00A1F312 /* Frameworks */,
 				6B01594F1CCE308D00A1F312 /* Resources */,
+				6B138DD5D5B030E19605AF4E /* Embed Pods Frameworks */,
+				C618580FCCE9ED86C09C7AC8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +362,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6569CC5E516780C1CAE266EC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B138DD5D5B030E19605AF4E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C618580FCCE9ED86C09C7AC8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B01594D1CCE308D00A1F312 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6B01595C1CCE308D00A1F312 /* ViewController.m in Sources */,
+				6B98E79E1CCF05580095C015 /* Slide1ViewController.m in Sources */,
+				6B1979B21CCF748B004DB751 /* KTFixedSlideView.m in Sources */,
 				6B0159591CCE308D00A1F312 /* AppDelegate.m in Sources */,
+				6B1979AD1CCF708C004DB751 /* KTTabItem.m in Sources */,
+				6B1979AA1CCF6DE2004DB751 /* KTFixedTabView.m in Sources */,
 				6B0159561CCE308D00A1F312 /* main.m in Sources */,
+				6B01598B1CCE351800A1F312 /* KTSlideView.m in Sources */,
+				6B98E7A11CCF055F0095C015 /* Slide2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +465,7 @@
 				6B01595E1CCE308D00A1F312 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		6B0159621CCE308D00A1F312 /* LaunchScreen.storyboard */ = {
@@ -322,6 +474,7 @@
 				6B0159631CCE308D00A1F312 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,9 +564,10 @@
 		};
 		6B01597F1CCE308D00A1F312 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B11991FBF1791DE6EE620C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = KTUIKit/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leisure.KTUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +576,10 @@
 		};
 		6B0159801CCE308D00A1F312 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82C7C19C259621733073A9B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = KTUIKit/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leisure.KTUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +653,7 @@
 				6B0159801CCE308D00A1F312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B0159811CCE308D00A1F312 /* Build configuration list for PBXNativeTarget "KTUIKitTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +662,7 @@
 				6B0159831CCE308D00A1F312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B0159841CCE308D00A1F312 /* Build configuration list for PBXNativeTarget "KTUIKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +671,7 @@
 				6B0159861CCE308D00A1F312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
