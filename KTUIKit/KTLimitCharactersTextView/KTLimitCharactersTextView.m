@@ -7,7 +7,7 @@
 //
 
 #import "KTLimitCharactersTextView.h"
-#import "NSString+HZW.h"
+#import "NSString+KTKit.h"
 
 @interface KTLimitCharactersTextView ()<UITextViewDelegate>
 
