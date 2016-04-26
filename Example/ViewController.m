@@ -10,10 +10,13 @@
 #import "Slide1ViewController.h"
 #import "Slide2ViewController.h"
 #import "KTSlideView.h"
+#import "KTFixedSlideView.h"
 
-@interface ViewController ()<KTSlideViewDataSource, KTSlideViewDelegate>
+@interface ViewController ()<KTSlideViewDataSource, KTSlideViewDelegate, KTFixedSlideViewDataSource>
 
 @property (nonatomic, strong) KTSlideView *slideView;
+
+@property (nonatomic, strong) KTFixedSlideView *fixedSlideView;
 
 @end
 
@@ -21,10 +24,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view addSubview:self.slideView];
-    self.slideView.frame = self.view.bounds;
+//    [self.view addSubview:self.slideView];
+//    self.slideView.frame = self.view.bounds;
+//    
+//    [self.slideView setSelectedIndex:1];
     
-    [self.slideView setSelectedIndex:1];
+    
+    [self.view addSubview:self.fixedSlideView];
+    self.fixedSlideView.frame = self.view.bounds;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,6 +60,17 @@
     NSLog(@"index = %zd", index);
 }
 
+#pragma mark - KTFixedSlideViewDataSource
+-(UIViewController *)kt_fixedSlideView:(KTFixedSlideView *)slideView viewControllerAtIndex:(NSUInteger)index
+{
+    if (index == 0) {
+        return [[Slide1ViewController alloc] init];
+    }
+    
+    return [[Slide2ViewController alloc] init];
+}
+
+
 #pragma mark - Getters and Setters
 - (KTSlideView *)slideView
 {
@@ -63,6 +81,30 @@
     }
     
     return _slideView;
+}
+
+- (KTFixedSlideView *)fixedSlideView
+{
+    if (!_fixedSlideView) {
+        _fixedSlideView = [[KTFixedSlideView alloc] init];
+        _fixedSlideView.dataSource = self;
+        _fixedSlideView.items = self.tabItems;
+    }
+    return _fixedSlideView;
+}
+
+- (KTTabItem *)createTabItem:(NSString *)title
+{
+    KTTabItem *item = [[KTTabItem alloc] init];
+    item.title = title;
+    item.selectedTitleColor = [UIColor redColor];
+    return item;
+}
+
+- (NSArray<KTTabItem *> *)tabItems
+{
+    return @[[self createTabItem:@"测试1"],
+             [self createTabItem:@"测试2"]];
 }
 
 @end

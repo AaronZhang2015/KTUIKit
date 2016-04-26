@@ -35,4 +35,6 @@
 
 - (instancetype)initWithItems:(NSArray<KTTabItem *> *)items innerMargin:(CGFloat)innerMargin;
 
+- (void)reloadData;
+
 @end

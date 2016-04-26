@@ -51,14 +51,13 @@ static const NSTimeInterval kKTAnimateDuration = .25f;
     _duration = kKTAnimateDuration;
     _scrollEnabled = YES;
     [self addGestureRecognizer:self.panGestureRecognizer];
+    self.backgroundColor = [UIColor blueColor];
 }
 
 - (void)willMoveToSuperview:(UIView *)newSuperview
 {
     [super willMoveToSuperview:newSuperview];
-    if (_selectedIndex == -1) {
-        [self reloadData];
-    }
+    [self reloadData];
 }
 
 #pragma mark - Public Methods

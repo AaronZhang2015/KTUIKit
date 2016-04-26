@@ -92,6 +92,12 @@ static const NSTimeInterval kKTAnimateDuration = .25f;
     self.trackView.frame = CGRectMake(_selectedIndex * width, self.height - self.trackHeight, width, self.trackHeight);
 }
 
+- (void)willMoveToSuperview:(UIView *)newSuperview
+{
+    [super willMoveToSuperview:newSuperview];
+    [self reloadData];
+}
+
 #pragma mark - Gesture
 - (void)handleTapGesture:(UITapGestureRecognizer *)recognizer
 {
@@ -143,6 +149,11 @@ static const NSTimeInterval kKTAnimateDuration = .25f;
         
         _selectedIndex = index;
     }
+}
+
+- (void)reloadData
+{
+    [self changeTabItem:_selectedIndex];
 }
 
 #pragma mark - Private Methods
